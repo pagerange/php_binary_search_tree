@@ -20,6 +20,7 @@ between 1 and 2,000,000.  10,000 searches were performed on
 the array to find random numbers. 
 
 Tests using a shuffled array (100,000 inputs):
+```
 +-----------------+----------+
 | algorithm       | shuffled |
 +-----------------+----------+
@@ -27,6 +28,7 @@ Tests using a shuffled array (100,000 inputs):
 | in_array()      | 1527 ms  |
 | array iteration | 36614 ms |
 +-----------------+----------+
+```
 
 
 Test 2 was an array of 10,000 unique ordered numbers
@@ -35,6 +37,7 @@ for the BST and for simple array iteration.  10,000 searches
 were performed on the array to find random numbers. 
 
 Test using an ordered array (10,000 inputs)
+```
 +-----------------+----------+
 | algorithm       | ordered  |
 +-----------------+----------+
@@ -42,4 +45,4 @@ Test using an ordered array (10,000 inputs)
 | in_array()      | 116 ms   |
 | array iteration | 3708 ms  |
 +-----------------+----------+
-
+```
