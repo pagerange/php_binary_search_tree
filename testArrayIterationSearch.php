@@ -44,7 +44,6 @@ for($i=0;$i<sizeof($targets);$i++) { // constant
 $end = round(microtime(true) * 1000);
 $arraytime = $end - $start;
 
-// Sample: Array Iteration found 1011 results in 40088 milliseconds (40 seconds)
 printf("Array Iteration performed %d searches on %d inputs and found %d results in %d milliseconds\n", $i, $x, count($array_found), $arraytime);
 
 

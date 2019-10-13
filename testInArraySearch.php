@@ -41,7 +41,6 @@ for($i=0;$i<sizeof($targets);$i++) {
 $end = round(microtime(true) * 1000);
 $inarraytime = $end - $start;
 
-// Sample: PHP's in_array() found 960 results in 1159 milliseconds (11.5 seconds)
 printf("PHP's in_array() performed %d searches on %d inputs and found %d results in %d milliseconds\n", $i, count($nums), count($in_array_found), $inarraytime);
 
 

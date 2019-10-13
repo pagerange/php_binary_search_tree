@@ -46,7 +46,6 @@ for($i=0;$i<sizeof($search);$i++) {
 $end = round(microtime(true) * 1000);
 $treetime = $end - $start;
 
-// Sample: Binary Tree Search found 998 results in 175 milliseconds (0.175 seconds)
 printf("Binary Tree Search peformed %d searches on %s inputs and found %d results in %d milliseconds\n", $i, count($words), count($tree_found), $treetime);
 
 printf("Minimum value (left-most): %s\n", $tree->min());
